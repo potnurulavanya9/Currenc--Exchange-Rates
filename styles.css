@@ -1,0 +1,43 @@
+      body {
+        margin: 0;
+        background-color: #ffffff;
+      }
+      header {
+        height: 75px;
+        background-color: #5a27a6;
+        color: #ffffff;
+        font-size: 3.5rem;
+        text-align: center;
+        font-family: sans-serif;
+      }
+      .container {
+        background-color: #93c6d9;
+        height: 150px;
+        margin: 10px 20px;
+      }
+      .container-canvas {
+        height: 400px;
+        margin: 10px 20px;
+      }
+      .currency {
+        width: 45%;
+        float: left;
+        height: 130px;
+        margin: 10px 10px 10px 60px;
+        background-color:#49a5cb;
+        border-radius: 15px;
+        text-align: center;
+      }
+      .date {
+        width: 45%;
+        float: right;
+        height: 130px;
+        margin: 10px 60px 10px 10px;
+        background-color: #49a5cb;
+        border-radius: 15px;
+        text-align: center;
+      }
+      .row {
+        margin-top: 20px;
+        font-weight: bold;
+      }

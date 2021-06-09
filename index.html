@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Currency Exchange Rates</title>
+  </head>
+  <body>
+    <header>Currency Exchange Rates</header>
+    <div class="container">
+      <div class="currency">
+        <div class="row">Your base currency: EUR</div>
+        <label class="row" for="currency">Choose the currency</label>
+        <select class="row" name="currency" id="currency" onChange="currencyHandler(this.options[this.selectedIndex].value)"></select>
+        <div class="row" id="currencyValue"></div>
+      </div>
+      <div class="date">
+        <label class="row" for="start">Select Date:</label>
+        <input class="row" type="date" id="date" name="select-date" min="2018-01-01" onchange="dateHandler(event);"/>
+      </div>
+    </div>
+    <div class="container-canvas">
+      <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    </div>
+
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+  </body>
+</html>
